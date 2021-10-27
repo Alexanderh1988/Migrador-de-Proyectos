@@ -1,0 +1,41 @@
+1) Posicionar excel base "Migrador.xlsx" base en el mismo directorio del ensamble base
+
+2) Abrir excel base y completar la informacion:
+
+-Nombre del archivo: sin la extension de este (parte o ensamble)
+
+-Directorio final de elemento: OEM, PRODUCTOS, ETC.
+
+ej:  "E:\GrabCAD\OEM\006- Kuka Roboter KR 300 R2500 ultra C-F"
+
+- Nuevo nombre: Nombre final con P/N incluido
+
+(Todo incluyendo extensiones).
+
+Se puede ayudar ejecutando el script "Escaneo de partes" que genera un listado de archivos local. Este tiene que correr en el directorio del archivo solid
+
+Importante: Cerrar el documento solid y abrir nuevamente desde la carpeta para reconocer correctamente el directorio.
+
+(PathBase = "directorio...")
+
+Agregar al directorio base los planos asociados al dibujo (uno solo)
+
+ej:  "000-001 - Brazo Robotico"
+
+3) Para subensamblajes escribir nombre de cada pieza de subensamblaje, y al final de este el nombre del subensamblaje. (importante)
+
+obs: seteado a 140 elementos totales.
+
+obs: En arbol final no se actualizaran los nombres, volver a abrir ensamble para actualizar.
+
+obs: Caso de error, cerrar instancia de excel y/o solidworks. Si se mantiene error editar swp y escribir manualmente los path de Solid y archivo excel.
+
+obs: completar directorio para los planos 2d
+
+obs: No funciona para agregar P/N a planos ni a configuraciones
+
+
+AHS
+
+
+
